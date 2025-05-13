@@ -11,9 +11,9 @@ import wave
 from lib import Microphone
 
 # 智谱AI配置及唤醒词
-API_KEY = "be4de28ba08a4063aa5dd0d77ed2bc0b.0MjWCQiU8L55NtQb"
-API_KEY_WU = "5779d36ada894cd58f7c34145767ef87.LJafl3orGWhmod70"
-API_KEY_EM = "95d6c713e4a449538ebd236d8f5c53ae.h0mTJQxZ4PmV0kWJ"
+API_KEY = "your key"
+API_KEY_WU = "your key"
+API_KEY_EM = "your key"
 WAKE_WORD = "Spark"
 AUDIO_SAMPLE_RATE = 16000  
 MAX_WAIT_TIME = 50  # 唤醒后最大处理时长（秒），这里改为30秒
