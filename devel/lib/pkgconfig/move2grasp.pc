@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: move2grasp
+Description: Description of move2grasp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

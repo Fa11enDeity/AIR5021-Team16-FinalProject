@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/install
+
+Name: spark_amcl
+Description: Description of spark_amcl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

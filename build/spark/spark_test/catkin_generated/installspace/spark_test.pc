@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/install
+
+Name: spark_test
+Description: Description of spark_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

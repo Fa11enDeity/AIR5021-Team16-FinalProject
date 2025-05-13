@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/install
+
+Name: cv_tutorial
+Description: Description of cv_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

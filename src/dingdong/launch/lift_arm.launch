@@ -1,0 +1,6 @@
+<!-- NXROBO SPARK ARM-->
+<launch>
+
+	<node name="lift_arm_node" pkg="dingdong" type="lift_arm_node"/>
+
+</launch>

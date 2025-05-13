@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: follower_velocity_smoother
+Description: Description of follower_velocity_smoother
+Version: 0.6.4
+Cflags: -I/home/spark/spark_noetic/devel/include -I/home/spark/spark_noetic/src/spark_app/follower_velocity_smoother/include
+Libs: -L${prefix}/lib -lfollower_velocity_smoother_nodelet
+Requires: roscpp pluginlib nodelet ecl_threads dynamic_reconfigure geometry_msgs nav_msgs

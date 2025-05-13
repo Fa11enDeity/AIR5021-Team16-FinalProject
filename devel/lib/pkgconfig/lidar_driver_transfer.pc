@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: lidar_driver_transfer
+Description: Description of lidar_driver_transfer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

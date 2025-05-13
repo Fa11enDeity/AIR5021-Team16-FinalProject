@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/install
+
+Name: dingdong
+Description: Description of dingdong
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

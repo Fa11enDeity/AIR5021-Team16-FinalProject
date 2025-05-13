@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: spark_carry_object
+Description: Description of spark_carry_object
+Version: 0.0.0
+Cflags: -I/home/spark/spark_noetic/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: spark_slam
+Description: Description of spark_slam
+Version: 0.0.0
+Cflags: -I/home/spark/spark_noetic/src/spark_app/spark_slam/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: spark_follower
+Description: Description of spark_follower
+Version: 0.4.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

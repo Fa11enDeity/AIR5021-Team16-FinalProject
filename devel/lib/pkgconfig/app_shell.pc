@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: app_shell
+Description: Description of app_shell
+Version: 2.3.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

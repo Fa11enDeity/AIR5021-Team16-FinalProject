@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: spark_depth2laser
+Description: Description of spark_depth2laser
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

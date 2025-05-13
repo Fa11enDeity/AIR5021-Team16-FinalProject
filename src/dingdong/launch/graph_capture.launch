@@ -1,0 +1,13 @@
+<!--graph_capture-->
+<launch>
+	<!-- camera -->
+	<arg name="camera_type_tel" default="astrapro" doc="camera type [astrapro, astra]"/>
+	<!--spark底盘驱动，机器人描述,底盘,相机-->
+	<include file="$(find spark_bringup)/launch/driver_bringup.launch">
+		<arg name="camera_types"	value="$(arg camera_type_tel)" />
+	</include>
+	<!--spark控制 ”-->
+	<node pkg="dingdong" type="graph.py" name="dingdong_bot"  output="screen">
+		<remap from="/camera/rgb/image_raw" to="/camera/color/image_raw" if="$(eval arg('camera_type_tel')=='d435')"/>
+  	</node>
+</launch>

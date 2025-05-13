@@ -1,0 +1,8 @@
+prefix=/home/spark/spark_noetic/devel
+
+Name: camera_calibrator
+Description: Description of camera_calibrator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
