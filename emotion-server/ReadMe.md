@@ -1,32 +1,5 @@
-sudo systemctl restart docker
-
-镜像构建：
-docker build -t emotion-server:latest .
-
-镜像加载：
-docker load -i emotion-server.tar
-
-sudo docker stop emotion-server
-sudo docker rm emotion-server
-
-
-镜像运行（暴露5000端口）：
-docker run -d  --name emotion-server   -p 5000:5000   emotion-server:latest
-
-请求示例：
-{
-  "filename": "example.jpg",
-  "timestamp": 1682851200,
-  "image": "<图片的 Base64 字符串>"
-}
-
-返回示例：
-{
-  "filename": "example.jpg",
-  "timestamp": 1682851200,
-  "emotion": "高兴"
-}
-
+依赖安装：
+pip install -r requirements.txt
 服务运行：
 python3 server.py
 
