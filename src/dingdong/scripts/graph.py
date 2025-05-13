@@ -29,10 +29,8 @@ class ImageSaverNode:
             rospy.logwarn("CvBridge Error: %s", e)
             return
 
-        # ���ñ����ļ�����ʾ����ʹ����Ϣ�� seq ��Ϊ�ļ���
         filename = os.path.join(self.save_path, IMAGE_NAME)
 
-        # ����ͼ��
         cv2.imwrite(filename, cv_img)
         rospy.loginfo("Saved image: %s", filename)
         
